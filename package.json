@@ -6,7 +6,9 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"start": "node build/index.js"
+
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
