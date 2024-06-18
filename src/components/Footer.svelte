@@ -51,7 +51,7 @@
             >
         </p>
     </div>
-    <div>
-        <p>This website was built using Svelte and Tailwind following <a class="text-violet-400" href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s" >this</a> tutorial. It's hosted on Heroku and I set up the custom domain through Cloudflare</p>
+    <div class = "flex flex-col gap-4 items-centre px-10">
+        <p>This website was built using Svelte and Tailwind following <a class="text-violet-400" href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s" >this</a> tutorial. It's hosted on Heroku and I set up the custom domain through Cloudflare. The particle effect is from <a href="https://github.com/VincentGarreau/particles.js/">particle.js</a></p>
     </div>
 </footer>
