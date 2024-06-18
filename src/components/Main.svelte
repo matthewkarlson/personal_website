@@ -157,9 +157,11 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            If these things interest <span class="text-violet-400">you</span>, I would <span class="text-violet-400">love</span> to hear from you. Check out all my links <span class="text-violet-400">below.</span> 
+            If these things interest <span class="text-violet-400">you</span>, I would <span class="text-violet-400">love</span> to hear from you. Check out all my links <span class="text-violet-400">below.</span>
         </h5>
-
+        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+        Subscribe to the <span class="text-violet-400">newsletter</span> to get my writing and updates on projects <span class="text-violet-400">directly in your inbox.</span>
+        </h5>
         <div
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >

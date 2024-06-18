@@ -6,18 +6,6 @@
         Connect with me &darr;
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
-        <!-- <div
-            class="flex items-center gap-4 sm:gap-6 text-2xl sm:text-3xl md:text-4xl mx-auto"
-        >
-            <a>
-                <i class="fa-brands fa-linkedin-in" />
-            </a>
-            <a>
-                <i class="fa-brands fa-github" />
-            </a>
-        </div>
-        <p class="mx-auto text-sm opacity-70">or</p>
-        <p class="">Hugh_jass@gmail.com</p> -->
         <p>
             <b class="pr-2">Email</b>
             <a
@@ -62,5 +50,8 @@
                 ></a
             >
         </p>
+    </div>
+    <div>
+        <p>This website was built by following <a class="text-violet-400" href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s" >this</a> tutorial. It's hosted on Heroku and I set up the custom domain through Cloudflare</p>
     </div>
 </footer>
