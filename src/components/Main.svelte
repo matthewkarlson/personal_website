@@ -77,8 +77,8 @@
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"src/images/profile.png"}
-                alt="Zetane Engine"
+                src={"/images/profile.png"}
+                alt="Matthew Karlson"
                 class="object-cover z-[2] max-h-[70vh]"
             />
         </div>

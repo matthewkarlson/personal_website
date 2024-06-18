@@ -17,11 +17,27 @@
         </div>
         <p class="mx-auto text-sm opacity-70">or</p>
         <p class="">Hugh_jass@gmail.com</p> -->
-        <p><b class="pr-2">Email</b> samuel_oak@gmail.com</p>
+        <p>
+            <b class="pr-2">Email</b>
+            <a
+                href="mailto:hello@mattkarlson.com"
+                class="text-violet-400"
+                >hello@mattkarlson.com<sup class=""
+                    ><span class="text-xs scale-75 pl-0.5"
+                        ><i
+                            class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+                        /></span
+                    ></sup
+                ></a
+            >
+        </p>
         <p>
             <b class="pr-2">GitHub</b>
-            <a href=" " target="_blank" class="text-violet-400"
-                >samuel_oak<sup class=""
+            <a
+                href="https://github.com/matthewkarlson"
+                target="_blank"
+                class="text-violet-400"
+                >matthewkarlson<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
@@ -32,8 +48,11 @@
         </p>
         <p>
             <b class="pr-2">LinkedIn</b>
-            <a href=" " target="_blank" class="text-violet-400"
-                >samuel_oak<sup class=""
+            <a
+                href="https://www.linkedin.com/in/matthew-karlson-a69b031a3/"
+                target="_blank"
+                class="text-violet-400"
+                >Matthew Karlson<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
                             class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
