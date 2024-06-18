@@ -53,7 +53,7 @@
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi! I'm <span class="poppins text-violet-400">Matt</span>
-                Karlson
+                Karlson,
                 <br /> <span class="poppins text-violet-400">Machine Learning</span>
                 and <span class="poppins text-violet-400">AI</span> Engineer
             </h2>
@@ -163,10 +163,11 @@
         Subscribe to the <span class="text-violet-400">newsletter</span> to get my writing and updates on projects <span class="text-violet-400">directly in your inbox.</span>
         </h5>
         <div
+        id="newsletter"
             class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
         >
 
-        <script async data-uid="c7ad401ca8" src="https://matthew-karlson.ck.page/c7ad401ca8/index.js"></script>
+        <script async data-uid="c7ad401ca8" src="https://matthew-karlson.ck.page/c7ad401ca8/index.js" ></script>
 
         </div>
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">

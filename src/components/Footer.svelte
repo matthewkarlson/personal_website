@@ -2,7 +2,7 @@
     class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
 
-    <p class="px-4 py-2 bg-white text-slate-950 font-medium">
+    <p class="px-4 py-2 bg-white text-slate-950 font-medium" id ="contact">
         Connect with me &darr;
     </p>
     <div class="flex flex-col gap-4 items-center justify-center">
@@ -52,6 +52,6 @@
         </p>
     </div>
     <div>
-        <p>This website was built by following <a class="text-violet-400" href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s" >this</a> tutorial. It's hosted on Heroku and I set up the custom domain through Cloudflare</p>
+        <p>This website was built using Svelte and Tailwind following <a class="text-violet-400" href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s" >this</a> tutorial. It's hosted on Heroku and I set up the custom domain through Cloudflare</p>
     </div>
 </footer>
