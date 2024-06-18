@@ -75,9 +75,9 @@
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img
-                src={"/images/profile.png"}
+                src={"/images/colourprofile.jpg"}
                 alt="Matthew Karlson"
-                class="object-cover z-[2] max-h-[70vh]"
+                class="object-cover z-[2] max-h-[70vh] border-4 border-violet-400 rounded-3xl shadow-2xl"
             />
         </div>
     </section>
