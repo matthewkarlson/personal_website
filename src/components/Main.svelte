@@ -164,7 +164,7 @@
         </h5>
         <div
         id="newsletter"
-            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+            class="flex flex-col gap-10 mx-auto width-full bg-violet-950 p-8 rounded-3xl shadow-2xl"
         >
 
         <script async data-uid="c7ad401ca8" src="https://matthew-karlson.ck.page/c7ad401ca8/index.js" ></script>
