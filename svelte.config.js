@@ -6,8 +6,14 @@ const config = {
   preprocess: vitePreprocess(),
 
   kit: {
-    adapter: adapter(),
-  },
+        adapter: adapter({
+          pages: 'build',
+          assets: 'build',
+          fallback: null
+        }),
+        // Other SvelteKit configurations
+      }
+
 };
 
 export default config;
