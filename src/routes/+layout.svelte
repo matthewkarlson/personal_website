@@ -15,7 +15,7 @@
 <div
     class="relative flex flex-col mx-auto w-full text-sm sm:text-base min-h-screen"
 >
-    <div class="max-w-[1400px]  w-full mx-auto px-4">
+    <div class="max-w-[1400px] w-full mx-auto px-4">
         <div
             class={"fixed bottom-0 w-full duration-200 flex p-10 z-[10]" +
                 (y > 0
@@ -24,7 +24,7 @@
         >
             <button
                 on:click={goTop}
-                class="ml-auto rounded-full bg-slate-900 text-coinbaseBlue px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center"
+                class="fixed bottom-4 right-4 rounded-full bg-slate-900 text-coinbaseBlue px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center shadow-lg"
             >
                 <i class="fa-solid fa-arrow-up"></i>
             </button>
