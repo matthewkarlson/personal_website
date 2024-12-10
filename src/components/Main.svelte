@@ -9,8 +9,8 @@
                 "Worked with ON Semiconductors to test a pre-production image sensor for applications in autonomous vehicles. Developed a custom test suite to evaluate the sensor's performance in various lighting conditions and at different speeds. The test suite was used to evaluate the sensor's performance and identify potential areas for improvement.",
         },
         {
-            name: "House Price Prediction Using ML",
-            icon: "fa-solid fa-house",
+            name: "Volume Ingestion Anomaly Detection",
+            icon: "fa-solid fa-snowflake",
             description:
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
@@ -24,64 +24,56 @@
 
     let benefits = [
         {
-            metric: "10x",
             name: "A Rational Optimist",
             description:
                 "We live in the best time in human history. We have more wealth, more freedom, and more opportunities than ever before, despite what the news might tell you. I believe we have a responsibility to use our skills and resources to make the world an even better place by building things that add value to the world.",
-},
+        },
         {
             name: "A Writer",
             description:
-            "I write about technology, wealth creation, optimism and my general thoughts. I believe that writing is a powerful tool for learning and growth. I write to clarify my thoughts and to share my ideas with the world. Sharing my thoughts publicly keeps me accountable and allows me to get rapid feedback on ideas and thougts.",
+                "I write about technology, wealth creation, optimism and my general thoughts. I believe that writing is a powerful tool for learning and growth. I write to clarify my thoughts and to share my ideas with the world. Sharing my thoughts publicly keeps me accountable and allows me to get rapid feedback on ideas and thoughts.",
         },
         {
-            metric: "10x",
             name: "A Stoic",
             description:
-            "Stoicism is at the core of my personal philisophy. I believe in focusing on the things that we can control and letting go of the rest. There are a lot of things we can't control, and thats ok. By remaining focused we waste less time and live a more fulfilling and peaceful life. Our minds and our actions are the only things we have true control over, so my life is based around a ruthless focus on how I can think and act in a way that is most beneficial to myself and others."
+                "Stoicism is at the core of my personal philisophy. I believe in focusing on the things that we can control and letting go of the rest. There are a lot of things we can't control, and thats ok. By remaining focused we waste less time and live a more fulfilling and peaceful life. Our minds and our actions are the only things we have true control over, so my life is based around a ruthless focus on how I can think and act in a way that is most beneficial to myself and others.",
         },
     ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-    <section
-        id="introPage"
-        class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
-    >
+    <section id="introPage" class="grid grid-cols-1 gap-10 py-8 sm:py-14">
         <div
-            class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
+            class="flex flex-col lg:justify-center text-center lg:text-centre gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Matt</span>
-                Karlson,
-                <br /> <span class="poppins text-violet-400">Machine Learning</span>
-                and <span class="poppins text-violet-400">AI</span> Engineer
+                The Future will be
+                <strong class="text-violet-400">Bright</strong>
             </h2>
-            <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes Python, Streamlit, Javascript, and Solidity. I'm passionate about building things that add value to the world.
-            </p>
-            <button
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-            >
-                <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <a
-                    href="mailto:hello@mattkarlson.com"
-                >
-                    <h4 class="relative z-9">Get in touch &rarr;</h4></a
-                >
-            </button>
+            <h2 class=" py-10 font-semibold text-4xl sm:text-5xl md:text-6xl">
+                Because
+                <strong class="text-violet-400">we</strong>
+                will make it so.
+            </h2>
         </div>
-        <div class="relative shadow-2xl grid place-items-center">
-            <img
-                src={"/images/colourprofile.jpg"}
-                alt="Matthew Karlson"
-                class="object-cover z-[2] max-h-[70vh] border-4 border-violet-400 rounded-3xl shadow-2xl"
-            />
+        <div
+            class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8"
+        >
+            <p class=" text-4xl leading-loose">
+                Hi, I'm 
+                <strong class="text-violet-400">Matt</strong>, welcome to my website. This website is a curation of my beliefs about the world, as well as some of the cool things I've been up to recently,
+            </p>
+
+            <div class="flex justify-center items-center">
+                <img
+                    src="/images/profile.png"
+                    alt="A headshot of Matthew Karlson"
+                    class="w-100 rounded-full border-4 border-violet-400"
+                />
+            </div>
         </div>
     </section>
-    <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
+    <section class="py-10 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
                 A few of my recent projects
@@ -91,17 +83,38 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Worked with <strong class="text-violet-400">ON Semiconductor</strong> to test a pre-production image sensor for applications in autonomous vehicles. Developed a <strong class="text-violet-400">custom test suite </strong>to evaluate the sensor's performance in various lighting conditions and at different speeds. Experimented with Convolutional filters to improve sensor performance.
+                    Worked with <strong class="text-violet-400"
+                        >ON Semiconductor</strong
+                    >
+                    to test a pre-production image sensor for applications in autonomous
+                    vehicles. Developed a
+                    <strong class="text-violet-400"
+                        >custom test suite
+                    </strong>to evaluate the sensor's performance in various
+                    lighting conditions and at different speeds. Experimented
+                    with Convolutional filters to improve sensor performance.
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Built a basic machine learning model to predict house prices using the <strong class="text-violet-400">HMRC Housing</strong>. The model was trained using a <strong class="text-violet-400">Random Forest Regressor</strong> and evaluated using <strong class="text-violet-400">cross-validation</strong>. The model was then deployed using <strong class="text-violet-400">Streamlit</strong> and <strong class="text-violet-400">Heroku</strong>.
+                    Created an anomaly detection model using <strong
+                        class="text-violet-400">Snowflake</strong
+                    > and Cortex AI. Analysed the volume of data ingestion feeds
+                    and built the model to detect anomalies and display them in a
+                    streamlit dashboard. Ability to flag false positives to improve
+                    model performance.
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    Built out multiple data dashboards as <strong class="text-violet-400" >Streamlit apps</strong> and deployed them as web apps using a <strong class="text-violet-400" >Kubernetes</strong> cluster. I engineered <strong class="text-violet-400" >SQL Queries</strong> on the backend, built out the logic in python and designed the frontend.
+                    Built out multiple data dashboards as <strong
+                        class="text-violet-400">Streamlit apps</strong
+                    >
+                    and deployed them as web apps using a
+                    <strong class="text-violet-400">Kubernetes</strong>
+                    cluster. I engineered
+                    <strong class="text-violet-400">SQL Queries</strong> on the backend,
+                    built out the logic in python and designed the frontend.
                 </p>
             </Step>
         </div>
@@ -126,21 +139,6 @@
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
-                <!-- <div class="flex flex-col gap-2 mx-auto">
-                    <div class="flex items-end gap-4">
-                        <p
-                            class="poppins text-6xl sm:text-7xl md:text-8xl text-slate-500 font-medium"
-                        >
-                            {benefit.metric}
-                        </p>
-                        <p
-                            class="text-xl sm:text-2xl md:text-3xl capitalize pb-2"
-                        >
-                            {benefit.name}
-                        </p>
-                    </div>
-                    <p class="text-center italic">- {benefit.description}</p>
-                </div> -->
                 <div class="flex gap-6 sm:gap-8">
                     <p
                         class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
@@ -157,22 +155,27 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            If these things interest <span class="text-violet-400">you</span>, I would <span class="text-violet-400">love</span> to hear from you. Check out all my links <span class="text-violet-400">below.</span>
+            If these things interest <span class="text-violet-400">you</span>, I
+            would <span class="text-violet-400">love</span> to hear from you.
+            Check out all my links <span class="text-violet-400">below.</span>
         </h5>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-        Subscribe to the <span class="text-violet-400">newsletter</span> to get my writing and updates on projects <span class="text-violet-400">directly in your inbox.</span>
+            Subscribe to the <span class="text-violet-400">newsletter</span> to
+            get my writing and updates on projects
+            <span class="text-violet-400">directly in your inbox.</span>
         </h5>
         <div
-        id="newsletter"
+            id="newsletter"
             class="flex flex-col gap-10 mx-auto width-full bg-violet-950 p-8 rounded-3xl shadow-2xl"
         >
-
-        <script async data-uid="c7ad401ca8" src="https://matthew-karlson.ck.page/c7ad401ca8/index.js" ></script>
-
+            <script
+                async
+                data-uid="c7ad401ca8"
+                src="https://matthew-karlson.ck.page/c7ad401ca8/index.js"
+            ></script>
         </div>
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-
     </section>
 </main>
