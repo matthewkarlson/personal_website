@@ -24,7 +24,7 @@
 
     let benefits = [
         {
-            name: "A Rational Optimist",
+            name: "A Techno-Optimist",
             description:
                 "We live in the best time in human history. We have more wealth, more freedom, and more opportunities than ever before, despite what the news might tell you. I believe we have a responsibility to use our skills and resources to make the world an even better place by building things that add value to the world.",
         },
@@ -57,7 +57,8 @@
             <p class=" text-4xl leading-relaxed">
                 Hi, I'm
                 <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my
-                website. This is a brief summary of who I am, as well as some of the cool things I've been up to recently.
+                website. This is a brief summary of who I am, as well as some of
+                the cool things I've been up to recently.
             </p>
 
             <div class="flex justify-center items-center">
@@ -138,7 +139,9 @@
                         0{index + 1}
                     </p>
                     <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl text-coinbaseBlue sm:text-3xl md:text-5xl">
+                        <h3
+                            class="text-2xl text-coinbaseBlue sm:text-3xl md:text-5xl"
+                        >
                             {benefit.name}
                         </h3>
                         <p>{benefit.description}</p>
@@ -146,6 +149,135 @@
                 </div>
             {/each}
         </div>
+        <div
+            class="max-w-3xl mx-auto my-12 p-6 bg-slate-900 text-white rounded-lg shadow-lg"
+        >
+            <h3 class="text-2xl font-bold text-coinbaseBlue mb-4">
+                Essential Reading
+            </h3>
+            <p class="text-lg text-gray-300 mb-6">
+                The following are some recommendations for books and articles. I
+                have found them all incredibly insightful, and they have shaped
+                my thinking in one way or another.
+            </p>
+            <ul class="space-y-4">
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://www.navalmanack.com/"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "The Almanack of Naval Ravikant" by Eric Jorgenson
+                        </a>
+                        – A comprehensive guide to wealth, happiness, and life philosophy
+                        inspired by Naval Ravikant.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://a16z.com/the-techno-optimist-manifesto/"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "The Techno-Optimist Manifesto" by Marc Andreessen
+                        </a>
+                        – A bold declaration of the power of technology to improve
+                        the world.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "The Beginning of Infinity" by David Deutsch
+                        </a>
+                        – An exploration of the boundless potential of human knowledge
+                        and progress.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://readwriteown.com/"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "Read Write Own" by Chris Dixon
+                        </a>
+                        – An insightful article exploring the future of the internet
+                        and the shift towards user ownership in Web3.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://www.calnewport.com/books/deep-work/"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "Deep Work" by Cal Newport
+                        </a>
+                        – A guide to cultivating focus in a world full of distractions,
+                        essential for achieving meaningful results.
+                    </div>
+                </li>
+
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://www.calnewport.com/books/so-good/"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "So Good They Can't Ignore You" by Cal Newport
+                        </a>
+                        – A contrarian take on career advice, focusing on building
+                        rare and valuable skills instead of following passion.
+                    </div>
+                </li>
+
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://www.goodreads.com/book/show/30659.Meditations"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "Meditations" by Marcus Aurelius
+                        </a>
+                        – Timeless wisdom and practical philosophy from one of history's
+                        greatest Stoic thinkers.
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <span class="text-coinbaseBlue font-bold mr-2">•</span>
+                    <div>
+                        <a
+                            href="https://www.amazon.co.uk/Discourses-Selected-Writings-Penguin-Classics/dp/0140449469/ref=sr_1_3?crid=37EKQOKEZFZB0&dib=eyJ2IjoiMSJ9.Q2quC00lVfRtLFccjJ0KDyhSWy_XwwzCtwr-rNP1ZeEZOGNbvIeSF9GEvkCjJRRmyqLPNJQsk8uh4OBLtpT0_Dw-ipRSqgMTDhOhLSbNn24f1DSG5iCyAfx6rzjcfkLYkx-kBB4992l-P8_WG1Pc03fE7wYQOsTqnys_kH8l42NuybQaDc2xG1DZQQMvHEsW36x-yIzARw5gP8Ac49NFycO6kMiifdoWf0IZEoice10.vNP6hIzzmFRMxxHTNcH9bK0EhA1yXXXGo3HgXD0M_PY&dib_tag=se&keywords=epictetus&qid=1733853781&sprefix=epictetus%2Caps%2C81&sr=8-3"
+                            target="_blank"
+                            class="text-coinbaseBlue hover:underline"
+                        >
+                            "The Enchiridion" by Epictetus
+                        </a>
+                        – A concise manual of Stoic ethical advice, offering practical
+                        guidance for living a virtuous and fulfilling life.
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             If these things interest you, I would love to hear from you. Check
             out all my links <span class="text-coinbaseBlue">below.</span>
