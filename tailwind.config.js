@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        coinbaseBlue: '#0048FF', // Add Coinbase Blue here
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 };
