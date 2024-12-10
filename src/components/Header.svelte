@@ -5,7 +5,6 @@
         {name: "Home",link: "#introPage"},
         {name: 'Projects',link: '#projects'},
         {name: 'About me', link: '#about'},
-        {name: 'Newsletter',link: '#newsletter'},
         {name: 'Contact',link: '#contact'}
     ]
 </script>
