@@ -54,12 +54,10 @@
         <div
             class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8"
         >
-            <p class=" text-4xl leading-loose">
+            <p class=" text-4xl leading-relaxed">
                 Hi, I'm
-                <strong class="text-coinbaseBlue">Matt</strong>, welcome to my
-                website. This website is a curation of my beliefs about the
-                world, as well as some of the cool things I've been up to
-                recently,
+                <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my
+                website. This is a brief summary of who I am, as well as some of the cool things I've been up to recently.
             </p>
 
             <div class="flex justify-center items-center">
@@ -124,9 +122,6 @@
         <div
             class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-blue-900 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-blue-900 py-4"
         >
-            <h6 class="text-large sm:text-xl md:text-2xl">
-                Want to know more?
-            </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 A bit <span class="poppins text-coinbaseBlue">about</span> me.
             </h3>
@@ -155,8 +150,5 @@
             If these things interest you, I would love to hear from you. Check
             out all my links <span class="text-coinbaseBlue">below.</span>
         </h5>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
     </section>
 </main>
