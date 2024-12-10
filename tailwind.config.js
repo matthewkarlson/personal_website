@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        coinbaseBlue: '#0048FF', // Add Coinbase Blue here
+        coinbaseBlue: '#118FF4',
       },
     },
   },

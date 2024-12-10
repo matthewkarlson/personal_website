@@ -1,5 +1,5 @@
 <footer
-    class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
+    class="py-20 w-full sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
     <p class="px-4 py-2 bg-white text-slate-950 font-medium" id="contact">
         Connect with me &darr;
@@ -7,7 +7,7 @@
     <div class="flex flex-col gap-4 items-center justify-center w-full">
         <p>
             <b class="pr-2">Email</b>
-            <a href="mailto:hello@mattkarlson.com" class="text-violet-400"
+            <a href="mailto:hello@mattkarlson.com" class="text-coinbaseBlue"
                 >hello@mattkarlson.com<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -22,7 +22,7 @@
             <a
                 href="https://x.com/matthew_karlson"
                 target="_blank"
-                class="text-violet-400"
+                class="text-coinbaseBlue"
                 >matthew_karlson<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -37,7 +37,7 @@
             <a
                 href="https://github.com/matthewkarlson"
                 target="_blank"
-                class="text-violet-400"
+                class="text-coinbaseBlue"
                 >matthewkarlson<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -52,7 +52,7 @@
             <a
                 href="https://www.linkedin.com/in/matthew-karlson-a69b031a3/"
                 target="_blank"
-                class="text-violet-400"
+                class="text-coinbaseBlue"
                 >Matthew Karlson<sup class=""
                     ><span class="text-xs scale-75 pl-0.5"
                         ><i
@@ -66,7 +66,7 @@
     <div class="px-10">
         <p>
             This website was built using Svelte and Tailwind following <a
-                class="text-violet-400"
+                class="text-coinbaseBlue"
                 href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s"
                 target="_blank">this</a
             >
@@ -75,10 +75,10 @@
             <a
                 href="https://github.com/VincentGarreau/particles.js/"
                 target="_blank"
-                class="text-violet-400">particle.js</a
+                class="text-coinbaseBlue">particle.js</a
             >. The code for this website can be found
             <a
-                class="text-violet-400"
+                class="text-coinbaseBlue"
                 href="https://github.com/matthewkarlson/personal_website"
                 target="_blank">here</a
             >

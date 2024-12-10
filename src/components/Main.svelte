@@ -29,9 +29,9 @@
                 "We live in the best time in human history. We have more wealth, more freedom, and more opportunities than ever before, despite what the news might tell you. I believe we have a responsibility to use our skills and resources to make the world an even better place by building things that add value to the world.",
         },
         {
-            name: "Passionate about Decentralised Finance",
+            name: "A DeFi Enthusiast",
             description:
-                "I write about technology, wealth creation, optimism and my general thoughts. I believe that writing is a powerful tool for learning and growth. I write to clarify my thoughts and to share my ideas with the world. Sharing my thoughts publicly keeps me accountable and allows me to get rapid feedback on ideas and thoughts.",
+                "I believe in a future where financial freedom is accessible to everyone. Decentralized finance empowers individuals by removing barriers, reducing reliance on intermediaries, and ensuring full ownership and control of their assets. My passion lies in building and contributing to systems that democratize access to financial services, fostering innovation, inclusion, and transparency in the global economy. Through DeFi, I see the potential to unlock opportunities for billions of people worldwide and redefine how we interact with money.",
         },
         {
             name: "A Stoic",
@@ -111,8 +111,8 @@
                     and deployed them as web apps using a
                     <strong class="text-coinbaseBlue">Kubernetes</strong>
                     cluster. I engineered
-                    <strong class="text-coinbaseBlue">SQL Queries</strong> on the backend,
-                    built out the logic in python and designed the frontend.
+                    <strong class="text-coinbaseBlue">SQL Queries</strong> on the
+                    backend, built out the logic in python and designed the frontend.
                 </p>
             </Step>
         </div>
@@ -143,7 +143,7 @@
                         0{index + 1}
                     </p>
                     <div class="flex flex-col gap-6 sm:gap-8">
-                        <h3 class="text-2xl sm:text-3xl md:text-5xl">
+                        <h3 class="text-2xl text-coinbaseBlue sm:text-3xl md:text-5xl">
                             {benefit.name}
                         </h3>
                         <p>{benefit.description}</p>
@@ -152,9 +152,8 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            If these things interest you, I
-            would love to hear from you.
-            Check out all my links <span class="text-coinbaseBlue">below.</span>
+            If these things interest you, I would love to hear from you. Check
+            out all my links <span class="text-coinbaseBlue">below.</span>
         </h5>
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
