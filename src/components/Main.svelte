@@ -36,7 +36,7 @@
         {
             name: "A Stoic",
             description:
-                "Stoicism is at the core of my personal philisophy. I believe in focusing on the things that we can control and letting go of the rest. There are a lot of things we can't control, and thats ok. By remaining focused we waste less time and live a more fulfilling and peaceful life. Our minds and our actions are the only things we have true control over, so my life is based around a ruthless focus on how I can think and act in a way that is most beneficial to myself and others.",
+                "Stoicism is at the core of my personal philosophy. I believe in focusing on the things that we can control and letting go of the rest. There are a lot of things we can't control, and thats ok. By remaining focused we waste less time and live a more fulfilling and peaceful life. Our minds and our actions are the only things we have true control over, so my life is based around a ruthless focus on how I can think and act in a way that is most beneficial to myself and others.",
         },
     ];
 </script>
@@ -171,8 +171,8 @@
                         >
                             "The Almanack of Naval Ravikant" by Eric Jorgenson
                         </a>
-                        – A comprehensive guide to wealth, happiness, and life philosophy
-                        inspired by Naval Ravikant.
+                        – A comprehensive guide to wealth, happiness, and life philosophy.
+                        Based on Naval's famous tweet storm "How to Get Rich without getting lucky"
                     </div>
                 </li>
                 <li class="flex items-start">
@@ -213,8 +213,8 @@
                         >
                             "Read Write Own" by Chris Dixon
                         </a>
-                        – An insightful article exploring the future of the internet
-                        and the shift towards user ownership in Web3.
+                        – A book on how web3 is ushering in an entirely new era on the internet.
+                        Great book to get started if you've never done anything web3 or crypto related
                     </div>
                 </li>
                 <li class="flex items-start">
@@ -272,7 +272,7 @@
                             "The Enchiridion" by Epictetus
                         </a>
                         – A concise manual of Stoic ethical advice, offering practical
-                        guidance for living a virtuous and fulfilling life.
+                        guidance for living a virtuous and fulfilling life. Often comes across as an angry old man shouting at you, but sometimes that is exactly what you need!
                     </div>
                 </li>
             </ul>
