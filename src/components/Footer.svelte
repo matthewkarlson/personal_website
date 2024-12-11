@@ -1,9 +1,13 @@
 <footer
     class="py-20 w-full sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
-    <p class="px-4 py-2 bg-white text-slate-950 font-medium" id="contact">
+    <p
+        class="px-6 py-3 bg-gradient-to-r from-cyan-400 to-coinbaseBlue text-white font-medium rounded-lg shadow-md text-center"
+        id="contact"
+    >
         Connect with me &darr;
     </p>
+
     <div class="flex flex-col gap-4 items-center justify-center w-full">
         <p>
             <b class="pr-2">Email</b>
@@ -70,8 +74,8 @@
                 href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s"
                 target="_blank">this</a
             >
-            tutorial. It's hosted on Heroku and I set up the custom domain
-            through Cloudflare. The particle effect is from
+            tutorial. It's hosted on Heroku and I set up the custom domain through
+            Cloudflare. The particle effect is from
             <a
                 href="https://github.com/VincentGarreau/particles.js/"
                 target="_blank"

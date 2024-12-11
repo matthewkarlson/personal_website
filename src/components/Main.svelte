@@ -312,15 +312,21 @@
                     Stand With Crypto US
                 </a>
             </div>
-            <div class="mt-4">
+            <div class="mt-6 flex justify-center">
                 <a
-                    href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199"
+                    href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199" 
                     target="_blank"
-                    class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+                    class="hover:opacity-90"
                 >
-                    View My Stand With Crypto NFT on OpenSea
+                    <img
+                        src="https://ipfs.io/ipfs/bafkreihsgifb3y4urqego3lpojxtneuyw2sgsxfkw5vsdt3xye4fvqh2ny" 
+                        alt="Stand With Crypto NFT"
+                        class="w-40 h-40 sm:w-60 sm:h-60 rounded-lg border-4 border-coinbaseBlue shadow-lg"
+                    />
                 </a>
             </div>
+            
+            
         </section>
 
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
