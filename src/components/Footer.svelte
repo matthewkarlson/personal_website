@@ -2,10 +2,10 @@
     class="py-20 w-full sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center"
 >
     <p
-        class="px-6 py-3 bg-gradient-to-r from-cyan-400 to-coinbaseBlue text-white font-medium rounded-lg shadow-md text-center"
+        class="px-6 py-3 bg-coinbaseBlue bg-opacity-0 text-white font-medium rounded-lg shadow-md text-center"
         id="contact"
     >
-        Connect with me &darr;
+        Get in touch &darr;
     </p>
 
     <div class="flex flex-col gap-4 items-center justify-center w-full">
