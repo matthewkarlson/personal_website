@@ -117,45 +117,6 @@
         </div>
     </section>
     <section
-        id="stand-with-crypto"
-        class="py-10 lg:py-20 flex flex-col gap-6 max-w-3xl mx-auto text-center"
-    >
-        <h3 class="text-2xl font-bold text-coinbaseBlue">Stand With Crypto</h3>
-        <p class="text-lg text-gray-300">
-            Join me in supporting the <strong>Stand With Crypto</strong> movement,
-            a global call to action to protect and promote innovation in the crypto
-            space. Together, we can advocate for fair policies that ensure financial
-            freedom and the continued growth of decentralized technologies in the
-            UK, US, and beyond.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-                href="https://ukstandwithcrypto.deform.cc/signup?referral=HVB9DgT1Z1pV"
-                target="_blank"
-                class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
-            >
-                Stand With Crypto UK
-            </a>
-            <a
-                href="https://www.standwithcrypto.org/join/2d4a4e1b67f2"
-                target="_blank"
-                class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
-            >
-                Stand With Crypto US
-            </a>
-        </div>
-        <div class="mt-4">
-            <a
-                href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199" 
-                target="_blank"
-                class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
-            >
-                View My Stand With Crypto NFT on OpenSea
-            </a>
-        </div>
-    </section>
-
-    <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
@@ -320,6 +281,47 @@
                 </li>
             </ul>
         </div>
+
+        <section
+            id="stand-with-crypto"
+            class="py-10 lg:py-20 flex flex-col gap-6 max-w-3xl mx-auto text-center"
+        >
+            <h3 class="text-2xl font-bold text-coinbaseBlue">
+                Stand With Crypto
+            </h3>
+            <p class="text-lg text-gray-300">
+                Join me in supporting the <strong>Stand With Crypto</strong> movement,
+                a global call to action to protect and promote innovation in the
+                crypto space. Together, we can advocate for fair policies that ensure
+                financial freedom and the continued growth of decentralized technologies
+                in the UK, US, and beyond.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                    href="https://ukstandwithcrypto.deform.cc/signup?referral=HVB9DgT1Z1pV"
+                    target="_blank"
+                    class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+                >
+                    Stand With Crypto UK
+                </a>
+                <a
+                    href="https://www.standwithcrypto.org/join/2d4a4e1b67f2"
+                    target="_blank"
+                    class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+                >
+                    Stand With Crypto US
+                </a>
+            </div>
+            <div class="mt-4">
+                <a
+                    href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199"
+                    target="_blank"
+                    class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+                >
+                    View My Stand With Crypto NFT on OpenSea
+                </a>
+            </div>
+        </section>
 
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             If these things interest you, I would love to hear from you. Check
