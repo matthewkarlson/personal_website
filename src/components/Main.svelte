@@ -144,6 +144,15 @@
                 Stand With Crypto US
             </a>
         </div>
+        <div class="mt-4">
+            <a
+                href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199" 
+                target="_blank"
+                class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+            >
+                View My Stand With Crypto NFT on OpenSea
+            </a>
+        </div>
     </section>
 
     <section
