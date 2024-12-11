@@ -319,7 +319,7 @@
                     class="hover:opacity-90"
                 >
                     <img
-                        src="https://ipfs.io/ipfs/bafkreihsgifb3y4urqego3lpojxtneuyw2sgsxfkw5vsdt3xye4fvqh2ny" 
+                        src="images/swc.png" 
                         alt="Stand With Crypto NFT"
                         class="w-40 h-40 sm:w-60 sm:h-60 rounded-lg border-4 border-coinbaseBlue shadow-lg"
                     />
