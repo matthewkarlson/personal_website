@@ -31,7 +31,7 @@
         {
             name: "A DeFi Enthusiast",
             description:
-                "I believe in a future where financial freedom is accessible to everyone. Decentralized finance empowers individuals by removing barriers, reducing reliance on intermediaries, and ensuring full ownership and control of their assets. My passion lies in building and contributing to systems that democratize access to financial services, fostering innovation, inclusion, and transparency in the global economy. Through DeFi, I see the potential to unlock opportunities for billions of people worldwide and redefine how we interact with money.",
+                "I believe in a future where financial freedom is accessible to everyone. Decentralized finance empowers individuals by removing barriers, reducing reliance on intermediaries, and ensuring full ownership and control of their assets. My passion lies in building and contributing to systems that democratize access to financial services, fostering innovation, inclusion, and transparency in the global economy. Through DeFi, I see the potential to unlock opportunities for billions of people worldwide and redefine how we interact with money. Check out the Stand With Crypto UK movement in the nav bar to find out more about supporting pro crypto policy in the UK!",
         },
         {
             name: "A Stoic",
@@ -117,6 +117,36 @@
         </div>
     </section>
     <section
+        id="stand-with-crypto"
+        class="py-10 lg:py-20 flex flex-col gap-6 max-w-3xl mx-auto text-center"
+    >
+        <h3 class="text-2xl font-bold text-coinbaseBlue">Stand With Crypto</h3>
+        <p class="text-lg text-gray-300">
+            Join me in supporting the <strong>Stand With Crypto</strong> movement,
+            a global call to action to protect and promote innovation in the crypto
+            space. Together, we can advocate for fair policies that ensure financial
+            freedom and the continued growth of decentralized technologies in the
+            UK, US, and beyond.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+                href="https://ukstandwithcrypto.deform.cc/signup?referral=HVB9DgT1Z1pV"
+                target="_blank"
+                class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+            >
+                Stand With Crypto UK
+            </a>
+            <a
+                href="https://www.standwithcrypto.org/join/2d4a4e1b67f2"
+                target="_blank"
+                class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+            >
+                Stand With Crypto US
+            </a>
+        </div>
+    </section>
+
+    <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
     >
@@ -172,7 +202,8 @@
                             "The Almanack of Naval Ravikant" by Eric Jorgenson
                         </a>
                         – A comprehensive guide to wealth, happiness, and life philosophy.
-                        Based on Naval's famous tweet storm "How to Get Rich without getting lucky"
+                        Based on Naval's famous tweet storm "How to Get Rich without
+                        getting lucky"
                     </div>
                 </li>
                 <li class="flex items-start">
@@ -213,8 +244,9 @@
                         >
                             "Read Write Own" by Chris Dixon
                         </a>
-                        – A book on how web3 is ushering in an entirely new era on the internet.
-                        Great book to get started if you've never done anything web3 or crypto related
+                        – A book on how web3 is ushering in an entirely new era on
+                        the internet. Great book to get started if you've never done
+                        anything web3 or crypto related
                     </div>
                 </li>
                 <li class="flex items-start">
@@ -272,7 +304,9 @@
                             "The Enchiridion" by Epictetus
                         </a>
                         – A concise manual of Stoic ethical advice, offering practical
-                        guidance for living a virtuous and fulfilling life. Often comes across as an angry old man shouting at you, but sometimes that is exactly what you need!
+                        guidance for living a virtuous and fulfilling life. Often
+                        comes across as an angry old man shouting at you, but sometimes
+                        that is exactly what you need!
                     </div>
                 </li>
             </ul>

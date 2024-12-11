@@ -5,6 +5,7 @@
         {name: "Home",link: "#introPage"},
         {name: 'Projects',link: '#projects'},
         {name: 'About me', link: '#about'},
+        {name: 'SWC', link: '#stand-with-crypto'},
         {name: 'Contact',link: '#contact'}
     ]
 </script>
