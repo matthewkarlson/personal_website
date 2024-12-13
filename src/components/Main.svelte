@@ -54,14 +54,14 @@
         <div
             class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8"
         >
-            <p class=" text-4xl leading-relaxed">
+            <p class=" text-2xl px-5 leading-snug lg:text-4xl sm:leading-relaxed ">
                 Hi, I'm
                 <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my
                 website. This is a brief summary of who I am, as well as some of
                 the cool things I've been up to recently.
             </p>
 
-            <div class="flex justify-center items-center">
+            <div class="sm: py-10 flex justify-center items-center">
                 <img
                     src="/images/profile.png"
                     alt="A headshot of Matthew Karlson"
