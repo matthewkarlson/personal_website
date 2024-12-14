@@ -47,7 +47,7 @@
             <h1
                 class="text-6xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue animate-pulse drop-shadow-lg sm:pb-0"
             >
-                Build the Future
+                Build The Future
             </h1>
         </div>
 
