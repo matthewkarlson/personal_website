@@ -42,26 +42,28 @@
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-    <section id="introPage" class="grid grid-cols-1 gap-10 py-8 sm:py-14">
+    <section id="introPage" class="grid grid-cols-1 py-4 sm:pt-10 sm:pb-0">
         <div class="text-center py-16">
             <h1
-                class="text-6xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue animate-pulse drop-shadow-lg"
+                class="text-6xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue animate-pulse drop-shadow-lg sm:pb-0"
             >
                 Build the Future
             </h1>
         </div>
 
         <div
-            class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8"
+            class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8 px-10"
         >
-            <p class=" text-2xl px-5 leading-snug lg:text-4xl sm:leading-relaxed ">
+            <p
+                class="text-2xl px-10 leading-snug lg:text-4xl sm:leading-relaxed text-center max-sm:py-10"
+            >
                 Hi, I'm
                 <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my
                 website. This is a brief summary of who I am, as well as some of
                 the cool things I've been up to recently.
             </p>
 
-            <div class="sm: py-10 flex justify-center items-center">
+            <div class="sm:py-10 flex justify-center items-center">
                 <img
                     src="/images/profile.png"
                     alt="A headshot of Matthew Karlson"
@@ -314,19 +316,17 @@
             </div>
             <div class="mt-6 flex justify-center">
                 <a
-                    href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199" 
+                    href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199"
                     target="_blank"
                     class="hover:opacity-90"
                 >
                     <img
-                        src="images/swc.png" 
+                        src="images/swc.png"
                         alt="Stand With Crypto NFT"
                         class="w-40 h-40 sm:w-60 sm:h-60 rounded-lg border-4 border-coinbaseBlue shadow-lg"
                     />
                 </a>
             </div>
-            
-            
         </section>
 
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
