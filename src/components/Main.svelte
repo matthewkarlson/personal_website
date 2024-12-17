@@ -55,7 +55,7 @@
             class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8 px-10"
         >
             <p
-                class="text-2xl px-10 leading-snug lg:text-4xl sm:leading-relaxed text-center max-sm:py-10"
+                class="text-2xl px-5 leading-snug lg:text-4xl sm:leading-relaxed text-center max-sm:py-10"
             >
                 Hi, I'm
                 <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my
