@@ -175,7 +175,7 @@
                         </a>
                         – A comprehensive guide to wealth, happiness, and life philosophy.
                         Based on Naval's famous tweet storm "How to Get Rich without
-                        getting lucky"
+                        getting lucky".
                     </div>
                 </li>
                 <li class="flex items-start">
@@ -218,7 +218,7 @@
                         </a>
                         – A book on how web3 is ushering in an entirely new era on
                         the internet. Great book to get started if you've never done
-                        anything web3 or crypto related
+                        anything web3 or crypto related.
                     </div>
                 </li>
                 <li class="flex items-start">
