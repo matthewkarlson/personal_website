@@ -2,9 +2,12 @@ FROM node:23-bookworm-slim
 
 WORKDIR /app
 
-COPY . .
+COPY package.json .
+COPY package-lock.json .
 
 RUN npm install
+
+COPY . .
 
 EXPOSE 5173
 
