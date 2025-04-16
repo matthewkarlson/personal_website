@@ -9,16 +9,17 @@
         "Worked with ON Semiconductors to test a pre-production image sensor for applications in autonomous vehicles. Developed a custom test suite to evaluate the sensor's performance in various lighting conditions and at different speeds. The test suite was used to evaluate the sensor's performance and identify potential areas for improvement.",
     },
     {
+      name: "Idea-Arena",
+      icon: "fa-solid fa-lightbulb",
+      description:
+        "A platform where users submit ideas for analysis by multiple AI personas and receive comprehensive competitor analysis through websearch. Built with Next.js and PostgreSQL backend, with Vercel Functions for API endpoints.",
+      href: "https://idea-arena.xyz"
+    },
+    {
       name: "Volume Ingestion Anomaly Detection",
       icon: "fa-solid fa-snowflake",
       description:
         "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
-    },
-    {
-      name: "Data Visualization & Augmentation",
-      icon: "fa-solid fa-chart-line",
-      description:
-        "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
     },
   ];
 
@@ -94,23 +95,23 @@
       </Step>
       <Step step={steps[1]}>
         <p>
+          Created <strong class="text-coinbaseBlue">Idea-Arena</strong>, a platform where users submit ideas for analysis by 
+          <strong class="text-coinbaseBlue">multiple AI personas</strong>. Features competitor analysis using websearch. 
+          Built with <strong class="text-coinbaseBlue">Next.js</strong> and
+          <strong class="text-coinbaseBlue">PostgreSQL</strong>, integrated
+          <strong class="text-coinbaseBlue">Stripe</strong> for payments and
+          <strong class="text-coinbaseBlue">SendGrid</strong> for email verification.
+          Deployed on <strong class="text-coinbaseBlue">Vercel</strong> using Vercel Functions for the backend.
+          <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
+        </p>
+      </Step>
+      <Step step={steps[2]}>
+        <p>
           Created an anomaly detection model using <strong
             class="text-coinbaseBlue">Snowflake</strong
           > and Cortex AI. Analysed the volume of data ingestion feeds and built
           the model to detect anomalies and display them in a streamlit dashboard.
           Ability to flag false positives to improve model performance.
-        </p>
-      </Step>
-      <Step step={steps[2]}>
-        <p>
-          Built out multiple data dashboards as <strong
-            class="text-coinbaseBlue">Streamlit apps</strong
-          >
-          and deployed them as web apps using a
-          <strong class="text-coinbaseBlue">Kubernetes</strong>
-          cluster. I engineered
-          <strong class="text-coinbaseBlue">SQL Queries</strong> on the backend,
-          built out the logic in python and designed the frontend.
         </p>
       </Step>
     </div>
