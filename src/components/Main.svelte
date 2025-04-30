@@ -9,11 +9,11 @@
         "Worked with ON Semiconductors to test a pre-production image sensor for applications in autonomous vehicles. Developed a custom test suite to evaluate the sensor's performance in various lighting conditions and at different speeds. The test suite was used to evaluate the sensor's performance and identify potential areas for improvement.",
     },
     {
-      name: "Idea-Arena",
+      name: "Planform.AI",
       icon: "fa-solid fa-lightbulb",
       description:
-        "A platform where users submit ideas for analysis by multiple AI personas and receive comprehensive competitor analysis through websearch. Built with Next.js and PostgreSQL backend, with Vercel Functions for API endpoints.",
-      href: "https://idea-arena.xyz"
+        "An embeddable AI plan generation service that allows agencies to provide custom service plans to clients",
+      href: "https://www.planform.ai"
     },
     {
       name: "Volume Ingestion Anomaly Detection",
@@ -95,13 +95,9 @@
       </Step>
       <Step step={steps[1]}>
         <p>
-          Created <strong class="text-coinbaseBlue">Idea-Arena</strong>, a platform where users submit ideas for analysis by 
-          <strong class="text-coinbaseBlue">multiple AI personas</strong>. Features competitor analysis using websearch. 
-          Built with <strong class="text-coinbaseBlue">Next.js</strong> and
-          <strong class="text-coinbaseBlue">PostgreSQL</strong>, integrated
-          <strong class="text-coinbaseBlue">Stripe</strong> for payments and
-          <strong class="text-coinbaseBlue">SendGrid</strong> for email verification.
-          Deployed on <strong class="text-coinbaseBlue">Vercel</strong> using Vercel Functions for the backend.
+          Created <strong class="text-coinbaseBlue">Planform.AI</strong>, an embeddable AI plan generation service that allows agencies to provide custom service plans to clients.
+          The service has a built in <strong class="text-coinbaseBlue">puppeteer</strong> integration to screenshot the client's website and provide a detailed analysis using AI.
+          Fully integrated with <strong class="text-coinbaseBlue">Stripe</strong> for payments and <strong class="text-coinbaseBlue">SendGrid</strong> for email. Built using <strong class="text-coinbaseBlue">Next.js</strong> and <strong class="text-coinbaseBlue">PostgreSQL</strong>.
           <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
         </p>
       </Step>
