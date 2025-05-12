@@ -10,6 +10,18 @@
 
   <div class="flex flex-col gap-4 items-center justify-center w-full">
     <p>
+      <b class="pr-2">Blog</b>
+      <a href="/blog" class="text-coinbaseBlue"
+        >Read my blog<sup class=""
+          ><span class="text-xs scale-75 pl-0.5"
+            ><i
+              class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+            ></i></span
+          ></sup
+        ></a
+      >
+    </p>
+    <p>
       <b class="pr-2">Email</b>
       <a href="mailto:hello@mattkarlson.com" class="text-coinbaseBlue"
         >hello@mattkarlson.com<sup class=""
@@ -67,14 +79,14 @@
       >
     </p>
   </div>
-  <div class="px-10">
+  <div class="px-10 max-sm:px-2 max-w-4xl">
     <p>
       This website was built using Svelte and Tailwind following <a
         class="text-coinbaseBlue"
         href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s"
         target="_blank">this</a
       >
-      tutorial. It's hosted on Heroku and I set up the custom domain through Cloudflare.
+      tutorial. It's hosted on Heroku(I know, I had free credits pls don't judge)
       The particle effect is from
       <a
         href="https://github.com/VincentGarreau/particles.js/"

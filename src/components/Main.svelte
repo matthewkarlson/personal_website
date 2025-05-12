@@ -44,7 +44,7 @@
 
 <main class="flex flex-col flex-1 p-4">
   <section id="introPage" class="grid grid-cols-1 py-4 sm:pt-10 sm:pb-0">
-    <div class="text-center py-16">
+    <div class="text-center py-12 md:py-16">
       <h1
         class="text-6xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue animate-pulse drop-shadow-lg sm:pb-0"
       >
@@ -53,22 +53,29 @@
     </div>
 
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4 sm:gap-8 py-8 px-5"
+      class="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 md:gap-12 py-4 md:py-8 px-5 max-w-6xl mx-auto"
     >
-      <p
-        class="text-2xl px-1 leading-snug lg:text-4xl sm:leading-relaxed text-center max-sm:py-10"
-      >
-        Hi, I'm
-        <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my website.
-        This is a brief summary of who I am, as well as some of the things I've
-        been up to recently.
-      </p>
-
-      <div class="sm:py-10 flex justify-center items-center">
+      <div class="flex flex-col justify-center space-y-6">
+        <p
+          class="text-2xl px-1 py-4 leading-snug md:text-3xl lg:text-4xl sm:leading-relaxed text-center sm:text-left"
+        >
+          Hi, I'm
+          <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my website.
+          I'm a software engineer and entrepreneur building powerful AI tools.
+        </p>
+        
+        <div class="py-2">
+          <p class="tech-text text-2xl px-6 py-3 mx-auto sm:mx-0 max-w-2xl leading-snug md:text-3xl lg:text-4xl sm:leading-relaxed text-center sm:text-left">
+            The Cutting Edge is my Comfort Zone.
+          </p>
+        </div>
+      </div>
+      
+      <div class="sm:py-6 flex justify-center items-center">
         <img
           src="/images/profile.png"
           alt="A headshot of Matthew Karlson"
-          class="w-100 rounded-full border-4 border-coinbaseBlue"
+          class="w-100 rounded-full border-4 border-coinbaseBlue shadow-lg transform transition-all duration-500 hover:scale-105"
         />
       </div>
     </div>
@@ -316,8 +323,81 @@
     </section>
 
     <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-      If these things interest you, I would love to hear from you. Check out all
-      my links <span class="text-coinbaseBlue">below.</span>
+      So, jump on board and lets build the future together. 
     </h5>
+    
+    <div class="max-w-4xl mx-auto px-4 py-8 mt-4 bg-slate-900 bg-opacity-70 rounded-xl backdrop-blur-sm border border-gray-800 shadow-xl">
+      <h4 class="text-xl font-semibold text-center mb-4 text-coinbaseBlue">Subscribe to My Newsletter</h4>
+        <script async data-uid="c7ad401ca8" src="https://matthew-karlson.kit.com/c7ad401ca8/index.js"></script>
+    </div>
   </section>
 </main>
+
+<style>
+  .tech-text {
+    background: rgba(15, 23, 42, 0.3);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    color: #0052FF;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    animation: pulse 4s infinite;
+  }
+
+  .tech-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 82, 255, 0.05),
+      rgba(0, 255, 255, 0.05),
+      transparent
+    );
+    opacity: 0.5;
+    animation: shimmer 8s infinite linear;
+    pointer-events: none;
+  }
+
+  .tech-text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      #0052FF,
+      transparent
+    );
+    animation: scan 4s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { text-shadow: 0 0 6px rgba(0, 82, 255, 0.3); }
+    50% { text-shadow: 0 0 12px rgba(0, 82, 255, 0.5); }
+  }
+
+  @keyframes shimmer {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(200%); }
+  }
+
+  @keyframes scan {
+    0%, 100% { transform: translateX(-100%); opacity: 0; }
+    25%, 75% { opacity: 0.7; }
+    50% { transform: translateX(100%); opacity: 0; }
+  }
+</style>
+
+
