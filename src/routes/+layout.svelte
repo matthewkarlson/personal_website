@@ -24,6 +24,7 @@
         >
             <button
                 on:click={goTop}
+                aria-label="Scroll to top"
                 class="fixed bottom-4 right-4 rounded-full bg-slate-900 text-coinbaseBlue px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center shadow-lg"
             >
                 <i class="fa-solid fa-arrow-up"></i>
