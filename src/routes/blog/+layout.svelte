@@ -3,4 +3,7 @@
 
 <div>
   <slot />
-</div> 
+</div>
+
+<style>
+</style> 

@@ -51,11 +51,11 @@
 
 <style>
   .frosted-glass {
-    background: rgba(15, 23, 42, 0.7); /* Slightly transparent slate-900 */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    background: rgba(10, 15, 30, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
   }
 
   /* Add custom styling for markdown content */
@@ -70,13 +70,13 @@
     color: theme('colors.white');
   }
   :global(.prose code) {
-    background: rgba(30, 41, 59, 0.8); /* semi-transparent slate-800 */
+    background: rgba(20, 30, 50, 0.8);
     color: theme('colors.gray.200');
     padding: 0.2em 0.4em;
     border-radius: 3px;
   }
   :global(.prose pre) {
-    background: rgba(30, 41, 59, 0.8); /* semi-transparent slate-800 */
+    background: rgba(20, 30, 50, 0.8);
     border-radius: 6px;
   }
   :global(.prose img) {
@@ -84,7 +84,7 @@
   }
   :global(.prose blockquote) {
     border-left-color: theme('colors.coinbaseBlue');
-    background: rgba(30, 41, 59, 0.6); /* more transparent slate-800 */
+    background: rgba(20, 30, 50, 0.7);
     padding: 1rem;
     border-radius: 0 6px 6px 0;
   }

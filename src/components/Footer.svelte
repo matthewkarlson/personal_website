@@ -9,6 +9,10 @@
   </p>
 
   <div class="flex flex-col gap-4 items-center justify-center w-full">
+    <div class="max-w-4xl mx-auto px-4 py-8 mt-4 bg-slate-900 bg-opacity-70 rounded-xl backdrop-blur-sm border border-gray-800 shadow-xl">
+      <h4 class="text-xl font-semibold text-center mb-4 text-coinbaseBlue">Subscribe to My Newsletter</h4>
+        <script async data-uid="c7ad401ca8" src="https://matthew-karlson.kit.com/c7ad401ca8/index.js"></script>
+    </div>
     <p>
       <b class="pr-2">Blog</b>
       <a href="/blog" class="text-coinbaseBlue"
