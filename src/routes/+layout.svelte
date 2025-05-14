@@ -2,6 +2,9 @@
     import "../app.css";
     import Header from "../components/Header.svelte";
     import Footer from "../components/Footer.svelte";
+    import posthog from 'posthog-js';
+    import { browser } from '$app/environment';
+    import { onMount } from 'svelte';
 
     let y;
     let innerHeight = 0;
@@ -10,6 +13,18 @@
     function goTop() {
         document.body.scrollIntoView();
     }
+    
+    onMount(() => {
+        if (browser) {
+            posthog.init(
+                'phc_Voo9Zu0zZRsh0VAIE6boIK0MPdehGwECvTHshvqLrMx',
+                {
+                    api_host: 'https://eu.i.posthog.com',
+                    person_profiles: 'identified_only',
+                }
+            );
+        }
+    });
 </script>
 
 <div

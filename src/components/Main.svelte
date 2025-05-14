@@ -44,7 +44,7 @@
 
 <main class="flex flex-col flex-1 p-4">
   <section id="introPage" class="grid grid-cols-1 py-4 sm:pt-10 sm:pb-0">
-    <div class="text-center py-12 md:py-16">
+    <div class="text-center py-2 md:py-4">
       <h1
         class="text-6xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue animate-pulse drop-shadow-lg sm:pb-0"
       >
