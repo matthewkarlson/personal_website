@@ -3,10 +3,11 @@
 
   let steps = [
     {
-      name: "Sensors in Autonomous Vehicles",
-      icon: "fa-solid fa-car",
+      name: "PostCaptioner",
+      icon: "fa-solid fa-newspaper",
       description:
-        "Worked with ON Semiconductors to test a pre-production image sensor for applications in autonomous vehicles. Developed a custom test suite to evaluate the sensor's performance in various lighting conditions and at different speeds. The test suite was used to evaluate the sensor's performance and identify potential areas for improvement.",
+        "A tool that automatically generates captions for your social media posts. It uses AI to understand the content of your post and generate a caption that is relevant to the post. Video transctription and image grabbing.",
+      href: "https://postcaptioner.com"
     },
     {
       name: "Planform.AI",
@@ -16,10 +17,11 @@
       href: "https://www.planform.ai"
     },
     {
-      name: "Volume Ingestion Anomaly Detection",
-      icon: "fa-solid fa-snowflake",
+      name: "GroupQuotes",
+      icon: "fa-solid fa-quote-left",
       description:
-        "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
+        "A tool the empower leaseholders being overcharged by their management companies.",
+      href: "https://groupquotes.co.uk"
     },
   ];
 
@@ -90,14 +92,10 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Worked with <strong class="text-coinbaseBlue">ON Semiconductor</strong
-          >
-          to test a pre-production image sensor for applications in autonomous vehicles.
-          Developed a
-          <strong class="text-coinbaseBlue">custom test suite </strong>to
-          evaluate the sensor's performance in various lighting conditions and
-          at different speeds. Experimented with Convolutional filters to
-          improve sensor performance.
+          Created <strong class="text-coinbaseBlue">PostCaptioner.com</strong>, a tool that automatically generates captions for your social media posts.
+          Create posts with a mix of video and image content. We use Cloudflare Stream to grab transcripts and images from your videos automatically!
+            is relevant to the post. Video transctription and image grabbing.
+          <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
         </p>
       </Step>
       <Step step={steps[1]}>
@@ -110,11 +108,10 @@
       </Step>
       <Step step={steps[2]}>
         <p>
-          Created an anomaly detection model using <strong
-            class="text-coinbaseBlue">Snowflake</strong
-          > and Cortex AI. Analysed the volume of data ingestion feeds and built
-          the model to detect anomalies and display them in a streamlit dashboard.
-          Ability to flag false positives to improve model performance.
+          Created <strong class="text-coinbaseBlue">GroupQuotes</strong>, a tool to empower leaseholders being overcharged by their management companies.
+          Allows leasholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
+          Turn your invoices into negotiation power!
+          <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
         </p>
       </Step>
     </div>
