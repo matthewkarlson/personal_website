@@ -63,7 +63,8 @@
         >
           Hi, I'm
           <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my website.
-          I'm a software engineer and entrepreneur building powerful AI tools.
+          I'm a Founding Engineer at EasyA Labs -
+          Building the future of Web3
         </p>
         
         <div class="py-2">
