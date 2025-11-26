@@ -14,7 +14,7 @@
       icon: "fa-solid fa-lightbulb",
       description:
         "An embeddable AI plan generation service that allows agencies to provide custom service plans to clients",
-      href: "https://www.planform.ai"
+      href: "https://www.loom.com/share/ac0a839263a74ba3b52f4c75d1f16886"
     },
     {
       name: "GroupQuotes",
@@ -104,7 +104,7 @@
           Created <strong class="text-coinbaseBlue">Planform.AI</strong>, an embeddable AI plan generation service that allows agencies to provide custom service plans to clients.
           The service has a built in <strong class="text-coinbaseBlue">puppeteer</strong> integration to screenshot the client's website and provide a detailed analysis using AI.
           Fully integrated with <strong class="text-coinbaseBlue">Stripe</strong> for payments and <strong class="text-coinbaseBlue">SendGrid</strong> for email. Built using <strong class="text-coinbaseBlue">Next.js</strong> and <strong class="text-coinbaseBlue">PostgreSQL</strong>.
-          <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
+          <span class="block mt-2 text-sm text-coinbaseBlue italic">See a demo →</span>
         </p>
       </Step>
       <Step step={steps[2]}>
