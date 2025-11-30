@@ -57,21 +57,15 @@
     <div
       class="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 md:gap-12 py-4 md:py-8 px-5 max-w-6xl mx-auto"
     >
-      <div class="flex flex-col justify-center space-y-6">
+      <div class="flex flex-col justify-center space-y-6 glassmorphic-card">
         <p
           class="text-2xl px-1 py-4 leading-snug md:text-3xl lg:text-4xl sm:leading-relaxed text-center sm:text-left"
         >
           Hi, I'm
           <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my website.
-          I'm a Founding Engineer at EasyA Labs -
-          Building the future of Web3
+          I'm a <strong class="text-coinbaseBlue">software engineer</strong> and entrepreneur.
+          I'm building <strong class="text-coinbaseBlue">AI</strong> tools and <strong class="text-coinbaseBlue">Automations</strong> to help businesses save time and scale.
         </p>
-        
-        <div class="py-2">
-          <p class="tech-text text-2xl px-6 py-3 mx-auto sm:mx-0 max-w-2xl leading-snug md:text-3xl lg:text-4xl sm:leading-relaxed text-center sm:text-left">
-            The Cutting Edge is my Comfort Zone.
-          </p>
-        </div>
       </div>
       
       <div class="sm:py-6 flex justify-center items-center">
@@ -95,7 +89,6 @@
         <p>
           Created <strong class="text-coinbaseBlue">PostCaptioner.com</strong>, a tool that automatically generates captions for your social media posts.
           Create posts with a mix of video and image content. We use Cloudflare Stream to grab transcripts and images from your videos automatically!
-            is relevant to the post. Video transctription and image grabbing.
           <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
         </p>
       </Step>
@@ -343,40 +336,6 @@
     animation: pulse 4s infinite;
   }
 
-  .tech-text::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-      90deg,
-      transparent,
-      rgba(0, 82, 255, 0.05),
-      rgba(0, 255, 255, 0.05),
-      transparent
-    );
-    opacity: 0.5;
-    animation: shimmer 8s infinite linear;
-    pointer-events: none;
-  }
-
-  .tech-text::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(
-      to right,
-      transparent,
-      #0052FF,
-      transparent
-    );
-    animation: scan 4s ease-in-out infinite;
-  }
 
   @keyframes pulse {
     0%, 100% { text-shadow: 0 0 6px rgba(0, 82, 255, 0.3); }
@@ -392,6 +351,22 @@
     0%, 100% { transform: translateX(-100%); opacity: 0; }
     25%, 75% { opacity: 0.7; }
     50% { transform: translateX(100%); opacity: 0; }
+  }
+
+  .glassmorphic-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .glassmorphic-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
   }
 </style>
 
