@@ -103,7 +103,7 @@
       <Step step={steps[2]}>
         <p>
           Created <strong class="text-coinbaseBlue">GroupQuotes</strong>, a tool to empower leaseholders being overcharged by their management companies.
-          Allows leasholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
+          Allows leaseholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
           Turn your invoices into negotiation power!
           <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
         </p>
