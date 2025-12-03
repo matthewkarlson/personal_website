@@ -86,27 +86,36 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
-        <p>
-          Created <strong class="text-coinbaseBlue">PostCaptioner.com</strong>, a tool that automatically generates captions for your social media posts.
-          Create posts with a mix of video and image content. We use Cloudflare Stream to grab transcripts and images from your videos automatically!
-          <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
-        </p>
-      </Step>
-      <Step step={steps[1]}>
-        <p>
-          Created <strong class="text-coinbaseBlue">Planform.AI</strong>, an embeddable AI plan generation service that allows agencies to provide custom service plans to clients.
-          The service has a built in <strong class="text-coinbaseBlue">puppeteer</strong> integration to screenshot the client's website and provide a detailed analysis using AI.
-          Fully integrated with <strong class="text-coinbaseBlue">Stripe</strong> for payments and <strong class="text-coinbaseBlue">SendGrid</strong> for email. Built using <strong class="text-coinbaseBlue">Next.js</strong> and <strong class="text-coinbaseBlue">PostgreSQL</strong>.
-          <span class="block mt-2 text-sm text-coinbaseBlue italic">See a demo →</span>
-        </p>
+        <div class="flex flex-col flex-1">
+          <p class="flex-1">
+            Created <strong class="text-coinbaseBlue">PostCaptioner.com</strong>, a tool that automatically generates captions for your social media posts.
+            Create posts with a mix of video and image content. We use Cloudflare Stream to grab transcripts and images from your videos automatically!
+          </p>
+          <a href="https://postcaptioner.com" target="_blank" on:click|stopPropagation class="project-button mt-auto">Check it out →</a>
+        </div>
       </Step>
       <Step step={steps[2]}>
-        <p>
-          Created <strong class="text-coinbaseBlue">GroupQuotes</strong>, a tool to empower leaseholders being overcharged by their management companies.
-          Allows leaseholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
-          Turn your invoices into negotiation power!
-          <span class="block mt-2 text-sm text-coinbaseBlue italic">Check it out →</span>
-        </p>
+        <div class="flex flex-col flex-1">
+          <p class="flex-1">
+            Created <strong class="text-coinbaseBlue">GroupQuotes</strong>, a tool to empower leaseholders being overcharged by their management companies.
+            Allows leaseholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
+            Turn your invoices into negotiation power!
+          </p>
+          <div class="flex flex-col gap-2 mt-auto">
+            <a href="https://groupquotes.co.uk" target="_blank" on:click|stopPropagation class="project-button">Check it out →</a>
+            <a href="https://www.loom.com/share/bd3d2add58e640328b57c1f7b0bee9c0" target="_blank" on:click|stopPropagation class="project-button">See a demo →</a>
+          </div>
+        </div>
+      </Step>
+      <Step step={steps[1]}>
+        <div class="flex flex-col flex-1">
+          <p class="flex-1">
+            Created <strong class="text-coinbaseBlue">Planform.AI</strong>, an embeddable AI plan generation service that allows agencies to provide custom service plans to clients.
+            The service has a built in <strong class="text-coinbaseBlue">puppeteer</strong> integration to screenshot the client's website and provide a detailed analysis using AI.
+            Fully integrated with <strong class="text-coinbaseBlue">Stripe</strong> for payments and <strong class="text-coinbaseBlue">SendGrid</strong> for email. Built using <strong class="text-coinbaseBlue">Next.js</strong> and <strong class="text-coinbaseBlue">PostgreSQL</strong>.
+          </p>
+          <a href="https://www.loom.com/share/ac0a839263a74ba3b52f4c75d1f16886" target="_blank" on:click|stopPropagation class="project-button mt-auto">See a demo →</a>
+        </div>
       </Step>
     </div>
   </section>
@@ -286,14 +295,14 @@
         <a
           href="https://ukstandwithcrypto.deform.cc/signup?referral=HVB9DgT1Z1pV"
           target="_blank"
-          class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+          class="crypto-button"
         >
           Stand With Crypto UK
         </a>
         <a
           href="https://www.standwithcrypto.org/join/2d4a4e1b67f2"
           target="_blank"
-          class="bg-coinbaseBlue text-white py-2 px-4 rounded-lg hover:bg-cyan-500 font-medium"
+          class="crypto-button"
         >
           Stand With Crypto US
         </a>
@@ -367,6 +376,51 @@
   .glassmorphic-card:hover {
     background: rgba(255, 255, 255, 0.08);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .project-button {
+    display: block;
+    background: rgba(0, 82, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 82, 255, 0.3);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #0052FF;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    text-decoration: none;
+  }
+
+  .project-button:hover {
+    background: rgba(0, 82, 255, 0.25);
+    border-color: rgba(0, 82, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 82, 255, 0.3);
+  }
+
+  .crypto-button {
+    display: inline-block;
+    background: #0052FF;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 12px rgba(0, 82, 255, 0.3);
+  }
+
+  .crypto-button:hover {
+    background: #00D4FF;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.4);
+    border-color: rgba(0, 212, 255, 0.5);
   }
 </style>
 
