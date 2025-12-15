@@ -331,20 +331,6 @@
 </main>
 
 <style>
-  .tech-text {
-    background: rgba(15, 23, 42, 0.3);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    color: #0052FF;
-    font-weight: 500;
-    position: relative;
-    overflow: hidden;
-    animation: pulse 4s infinite;
-  }
-
 
   @keyframes pulse {
     0%, 100% { text-shadow: 0 0 6px rgba(0, 82, 255, 0.3); }
