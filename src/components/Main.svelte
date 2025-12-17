@@ -55,17 +55,19 @@
     </div>
 
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 md:gap-12 py-4 md:py-8 px-5 max-w-6xl mx-auto"
+      class="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 md:gap-2 py-4 md:py-8 px-3 max-w-6xl mx-auto"
     >
       <div class="flex flex-col justify-center space-y-6 glassmorphic-card">
         <p
           class="text-2xl px-1 py-4 leading-snug md:text-3xl lg:text-4xl sm:leading-relaxed text-center sm:text-left"
         >
           Hi, I'm
-          <strong class="text-coinbaseBlue">Matt</strong>. Welcome to my website.
-          I'm a <strong class="text-coinbaseBlue">software engineer</strong> and entrepreneur.
-          I'm building <strong class="text-coinbaseBlue">AI</strong> tools and <strong class="text-coinbaseBlue">Automations</strong> to help businesses save time and scale.
+          <strong class="text-coinbaseBlue">Matt</strong>. 
+          I'm a <strong class="text-coinbaseBlue">Software Engineer</strong>, Writer and Entrepreneur.
+          Check out my projects and newsletter below.
         </p>
+        <a href="#projects" class="project-button">Check out my projects →</a>
+        <a href="#newsletter" class="project-button">Subscribe to my newsletter →</a>
       </div>
       
       <div class="sm:py-6 flex justify-center items-center">

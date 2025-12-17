@@ -9,7 +9,7 @@
   </p>
 
   <div class="flex flex-col gap-6 items-center justify-center w-full px-4">
-    <div class="kit-wrapper">
+    <div class="kit-wrapper" id="newsletter">
       <script
         async
         data-uid="c7ad401ca8"
