@@ -93,7 +93,7 @@
         href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s"
         target="_blank">this</a
       >
-      tutorial. It's hosted on Heroku(I know, I had free credits pls don't judge)
+      tutorial. It's hosted on Heroku.
       The particle effect is from
       <a
         href="https://github.com/VincentGarreau/particles.js/"
