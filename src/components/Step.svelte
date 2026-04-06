@@ -2,9 +2,7 @@
   export let step;
 </script>
 
-<a
-  href={step.href || "#"}
-  target={step.href ? "_blank" : "_self"}
+<div
   class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-violet-700 text-center cursor-pointer group hover:border-violet-400 duration-200"
 >
   <div
@@ -23,4 +21,4 @@
       class="ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:bg-white after:w-full after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
     ></div>
   </div>
-</a>
+</div>
