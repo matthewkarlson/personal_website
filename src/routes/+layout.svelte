@@ -18,6 +18,7 @@
     if (browser) {
       posthog.init("phc_Voo8Zu0zZRsh0VAIE6boIK0MPdehGwECvTHshvqLrMx", {
         api_host: "https://k.mattkarlson.com",
+        ui_host: "https://eu.posthog.com",
         defaults: "2026-01-30",
       });
     }
