@@ -13,7 +13,7 @@
       <script
         async
         data-uid="c7ad401ca8"
-        src="https://matthew-karlson.kit.com/c7ad401ca8/index.js"
+        src="https://newsletter.mattkarlson.com/subscribe-form/index.js"
       ></script>
     </div>
     <p>
@@ -93,8 +93,7 @@
         href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=3449s"
         target="_blank">this</a
       >
-      tutorial. It's hosted on Heroku.
-      The particle effect is from
+      tutorial. It's hosted on Heroku. The particle effect is from
       <a
         href="https://github.com/VincentGarreau/particles.js/"
         target="_blank"
@@ -139,7 +138,10 @@
     background: rgba(255, 255, 255, 0.04);
     color: #e5e7eb;
     outline: none;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      background 0.2s ease;
   }
 
   :global([data-uid="c7ad401ca8"] input[type="email"]:focus) {
@@ -159,7 +161,10 @@
     letter-spacing: 0.01em;
     cursor: pointer;
     box-shadow: 0 10px 25px rgba(0, 82, 255, 0.35);
-    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      filter 0.2s ease;
   }
 
   :global([data-uid="c7ad401ca8"] button[type="submit"]:hover) {
