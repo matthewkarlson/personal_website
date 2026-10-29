@@ -10,7 +10,6 @@ It has a short intro, my work experience, past projects (now retired, with code 
 - Blog posts written in Markdown (`src/lib/posts`)
 - Deployed on [Vercel](https://vercel.com/) via `@sveltejs/adapter-vercel`
 - PostHog analytics, proxied through a first-party domain
-- Particle effect from [particles.js](https://github.com/VincentGarreau/particles.js/)
 
 ## Running locally
 

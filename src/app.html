@@ -3,7 +3,6 @@
 
 <head>
 	<meta charset="utf-8" />
-	<script src="/assets/particles.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
@@ -25,14 +24,9 @@
 
 <body data-sveltekit-preload-data="hover" class="bg-slate-950 text-white relative">
 	<div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
-	<div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-70">
-		<div class="absolute inset-0" id="particles-js"></div>
+	<div class="fixed inset-0 z-[-1] pointer-events-none"
+		style="background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 82, 255, 0.28), transparent 70%), radial-gradient(ellipse 60% 40% at 100% 100%, rgba(0, 212, 255, 0.10), transparent 70%);">
 	</div>
-	<script>
-		particlesJS.load('particles-js', '/assets/particles.json', function () {
-			console.log('callback - particles.js config loaded');
-		});
-	</script>
 </body>
 
 </html>

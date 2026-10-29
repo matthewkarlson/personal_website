@@ -3,19 +3,6 @@
 
   let steps = [
     {
-      name: "PostCaptioner",
-      icon: "fa-solid fa-newspaper",
-      description:
-        "A tool that automatically generates captions for your social media posts. It uses AI to understand the content of your post and generate a caption that is relevant to the post. Video transctription and image grabbing.",
-    },
-    {
-      name: "Planform.AI",
-      icon: "fa-solid fa-lightbulb",
-      description:
-        "An embeddable AI plan generation service that allows agencies to provide custom service plans to clients",
-      href: "https://github.com/matthewkarlson/planform"
-    },
-    {
       name: "GroupQuotes",
       icon: "fa-solid fa-quote-left",
       description:
@@ -25,10 +12,9 @@
   ];
 
   let stats = [
-    "AWS Certified Solutions Architect",
-    "Built a company-wide MCP server",
-    "Agentic LLM workflows for investment teams",
-    "BSc Mathematics, Warwick",
+    "AWS Solutions Architect",
+    "Agent-first developer",
+    "Founding engineer",
   ];
 
   let jobs = [
@@ -93,11 +79,11 @@
 </script>
 
 <main class="flex flex-col flex-1 p-4">
-  <section id="introPage" class="grid grid-cols-1 py-4 sm:pt-10 sm:pb-0">
+  <section id="introPage" class="grid grid-cols-1 py-4 sm:pt-10 sm:pb-0 lg:min-h-[85vh] lg:content-center lg:py-24">
     <div
       class="grid grid-cols-1 sm:grid-cols-5 items-center gap-8 md:gap-10 py-4 md:py-8 px-3 max-w-6xl mx-auto"
     >
-      <div class="sm:col-span-3 flex flex-col gap-6 text-center sm:text-left">
+      <div class="sm:col-span-3 flex flex-col gap-4 sm:gap-6 text-center sm:text-left order-2 sm:order-1">
         <p class="text-coinbaseBlue font-medium tracking-wide">
           Software Engineer · London
         </p>
@@ -106,7 +92,7 @@
         >
           Hi, I'm Matt.
         </h1>
-        <p class="text-xl md:text-2xl text-gray-300 leading-relaxed">
+        <p class="text-base sm:text-xl md:text-2xl text-gray-300 leading-relaxed">
           Full-stack engineer working across Django, Angular, AWS and AI.
           Currently at <strong class="text-white">Housekeep</strong>, shipping
           features end to end. Previously a founding engineer at
@@ -114,76 +100,31 @@
           <strong class="text-white">Schroders</strong> building AI tools for
           investment teams.
         </p>
-        <div class="flex flex-wrap justify-center sm:justify-start gap-3">
+        <div class="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-3">
           {#each stats as stat}
             <span
-              class="px-3 py-1 rounded-full border border-solid border-violet-700 text-sm text-gray-300"
+              class="px-2.5 py-1.5 rounded-full border border-solid border-violet-700 text-[11px] leading-tight sm:text-sm text-gray-300 whitespace-nowrap"
               >{stat}</span
             >
           {/each}
         </div>
-        <div class="flex flex-col sm:flex-row gap-3">
-          <a href="mailto:hello@mattkarlson.com" class="project-button !mt-0 sm:w-auto"
+        <div class="grid grid-cols-2 sm:flex sm:flex-row gap-3">
+          <a href="mailto:hello@mattkarlson.com" class="project-button !mt-0 sm:w-auto !bg-coinbaseBlue !text-white"
             >Get in touch →</a
           >
           <a href="#experience" class="project-button !mt-0 sm:w-auto"
-            >See my experience →</a
-          >
-          <a
-            href="https://github.com/matthewkarlson"
-            target="_blank"
-            class="project-button !mt-0 sm:w-auto">GitHub →</a
+            >Experience →</a
           >
         </div>
       </div>
 
-      <div class="sm:col-span-2 flex justify-center items-center">
+      <div class="sm:col-span-2 flex justify-center items-center order-1 sm:order-2">
         <img
           src="/images/profile.png"
           alt="A headshot of Matthew Karlson"
-          class="w-full max-w-xs rounded-full border-4 border-coinbaseBlue shadow-lg transform transition-all duration-500 hover:scale-105"
+          class="w-28 sm:w-full max-w-xs aspect-square object-cover object-top rounded-full border-4 border-coinbaseBlue shadow-lg transform transition-all duration-500 hover:scale-105"
         />
       </div>
-    </div>
-  </section>
-  <section class="py-10 lg:py-32 flex flex-col gap-24" id="projects">
-    <div class="flex flex-col gap-2 text-center">
-      <h6 class="text-large sm:text-xl md:text-2xl">
-        Some projects
-      </h6>
-    </div>
-
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]}>
-        <div class="flex flex-col flex-1">
-          <p class="flex-1">
-            Created <strong class="text-coinbaseBlue">PostCaptioner.com</strong>, a tool that automatically generates captions for your social media posts.
-            Create posts with a mix of video and image content. We use Cloudflare Stream to grab transcripts and images from your videos automatically!
-          </p>
-        </div>
-      </Step>
-      <Step step={steps[2]}>
-        <div class="flex flex-col flex-1">
-          <p class="flex-1">
-            Created <strong class="text-coinbaseBlue">GroupQuotes</strong>, a tool to empower leaseholders being overcharged by their management companies.
-            Allows leaseholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
-            Turn your invoices into negotiation power!
-          </p>
-          <div class="flex flex-col gap-2 mt-auto">
-            <a href="https://www.loom.com/share/bd3d2add58e640328b57c1f7b0bee9c0" target="_blank" on:click|stopPropagation class="project-button">See a demo →</a>
-          </div>
-        </div>
-      </Step>
-      <Step step={steps[1]}>
-        <div class="flex flex-col flex-1">
-          <p class="flex-1">
-            Created <strong class="text-coinbaseBlue">Planform.AI</strong>, an embeddable AI plan generation service that allows agencies to provide custom service plans to clients.
-            The service has a built in <strong class="text-coinbaseBlue">puppeteer</strong> integration to screenshot the client's website and provide a detailed analysis using AI.
-            Fully integrated with <strong class="text-coinbaseBlue">Stripe</strong> for payments and <strong class="text-coinbaseBlue">SendGrid</strong> for email. Built using <strong class="text-coinbaseBlue">Next.js</strong> and <strong class="text-coinbaseBlue">PostgreSQL</strong>.
-          </p>
-          <a href="https://github.com/matthewkarlson/planform" target="_blank" on:click|stopPropagation class="project-button mt-auto">View on GitHub →</a>
-        </div>
-      </Step>
     </div>
   </section>
   <section class="py-10 lg:py-20 flex flex-col gap-12" id="experience">
@@ -381,6 +322,26 @@
       </ul>
     </div>
 
+  </section>
+  <section class="py-10 lg:py-20 flex flex-col gap-16" id="projects">
+    <div class="flex flex-col gap-2 text-center">
+      <h6 class="text-large sm:text-xl md:text-2xl">A project</h6>
+    </div>
+
+    <div class="max-w-xl mx-auto w-full">
+      <Step step={steps[0]}>
+        <div class="flex flex-col flex-1">
+          <p class="flex-1">
+            Created <strong class="text-coinbaseBlue">GroupQuotes</strong>, a tool to empower leaseholders being overcharged by their management companies.
+            Allows leaseholders to upload the hundreds of invoices they receive from their management companies. Generates a shareable report, flagging suspicious contractors and highlighting overcharges.
+            Turn your invoices into negotiation power!
+          </p>
+          <div class="flex flex-col gap-2 mt-auto">
+            <a href="https://www.loom.com/share/bd3d2add58e640328b57c1f7b0bee9c0" target="_blank" on:click|stopPropagation class="project-button">See a demo →</a>
+          </div>
+        </div>
+      </Step>
+    </div>
   </section>
 </main>
 

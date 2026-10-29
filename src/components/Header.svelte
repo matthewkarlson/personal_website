@@ -7,9 +7,9 @@
 
     let tabs = [
         {name: "Home", link: "/"},
-        {name: 'Projects', link: isHomePage ? '#projects' : '/#projects'},
         {name: 'Experience', link: isHomePage ? '#experience' : '/#experience'},
         {name: 'About me', link: isHomePage ? '#about' : '/#about'},
+        {name: 'Projects', link: isHomePage ? '#projects' : '/#projects'},
         {name: 'Blog', link: '/blog'},
         {name: 'Contact', link: isHomePage ? '#contact' : '/#contact'}
     ]
