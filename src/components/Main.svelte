@@ -7,74 +7,141 @@
       icon: "fa-solid fa-newspaper",
       description:
         "A tool that automatically generates captions for your social media posts. It uses AI to understand the content of your post and generate a caption that is relevant to the post. Video transctription and image grabbing.",
-      href: "https://postcaptioner.com"
     },
     {
       name: "Planform.AI",
       icon: "fa-solid fa-lightbulb",
       description:
         "An embeddable AI plan generation service that allows agencies to provide custom service plans to clients",
-      href: "https://www.loom.com/share/ac0a839263a74ba3b52f4c75d1f16886"
+      href: "https://github.com/matthewkarlson/planform"
     },
     {
       name: "GroupQuotes",
       icon: "fa-solid fa-quote-left",
       description:
         "A tool the empower leaseholders being overcharged by their management companies.",
-      href: "https://groupquotes.co.uk"
+      href: "https://www.loom.com/share/bd3d2add58e640328b57c1f7b0bee9c0"
+    },
+  ];
+
+  let stats = [
+    "AWS Certified Solutions Architect",
+    "Built a company-wide MCP server",
+    "Agentic LLM workflows for investment teams",
+    "BSc Mathematics, Warwick",
+  ];
+
+  let jobs = [
+    {
+      company: "Housekeep",
+      role: "Software Engineer",
+      dates: "Jan 2026 – Present",
+      points: [
+        "Full-stack engineer at a UK home services marketplace, shipping customer-facing features end to end across the Django backend, Ionic/Angular apps, internal tools and AWS infrastructure.",
+        "Introduced over-the-air updates for the consumer app, increasing release frequency 9x and enabling rapid rollbacks.",
+        "Built a read-only MCP server letting employees across the company explore the codebase through their AI assistants.",
+        "Reduced a business-critical data export from 10 hours to 3.5 hours (65% faster) and cut mobile app bundle size by 25%.",
+        "Migrated EC2 scheduled jobs to AWS Lambda and rebuilt developer infrastructure, saving ~$500/month.",
+      ],
+    },
+    {
+      company: "EasyA Labs",
+      role: "Founding Engineer",
+      dates: "Aug – Nov 2025",
+      points: [
+        "Sole engineer building EVM-compatible DeFi apps in Solidity, TypeScript and Next.js, including proxy-wallet and cross-chain messaging components.",
+        "Built a perpetual-futures carry-trading application integrating the Binance API.",
+      ],
+    },
+    {
+      company: "Schroders",
+      role: "Technology Graduate, AI & Data Engineering",
+      dates: "Sep 2023 – Jul 2025",
+      points: [
+        "Developed full-stack AI applications for investment professionals using React, TypeScript and Python, connecting LLM workflows to internal investment data.",
+        "Built agentic analysis workflows with LangChain, including time-series analysis across 34 solar farms.",
+        "Implemented Python/Kubernetes ingestion pipelines with PostgreSQL storage and Streamlit interfaces.",
+      ],
     },
   ];
 
   let benefits = [
     {
+      name: "A Builder",
+      lead: "I like taking ownership of messy problems and shipping pragmatic fixes.",
+      body: "I'd rather get something real in front of people and improve it than wait for the perfect plan. The work I'm proudest of tends to make a whole team faster, not just me, and I'm happiest when I'm making other people's work easier to ship.",
+      pointsTitle: "In practice, at Housekeep",
+      points: [
+        "Introduced over-the-air updates that increased the consumer app's release rate 10x and made rollbacks fast.",
+        "Built a read-only MCP server so anyone in the company can ask questions about the codebase through their AI assistant.",
+        "Cut a business-critical data export from 10 hours to 3.5 hours.",
+        "Moved EC2 scheduled jobs to AWS Lambda and rebuilt developer infrastructure, saving about $500/month.",
+      ],
+    },
+    {
       name: "A Techno-Optimist",
-      description:
-        "We live in the best time in human history. We have more wealth, more freedom, and more opportunities than ever before, despite what the news might tell you. I believe we have a responsibility to use our skills and resources to make the world an even better place by building things that add value.",
-    },
-    {
-      name: "A DeFi Enthusiast",
-      description:
-        "I believe in a future where financial freedom is accessible to everyone. Decentralized finance empowers individuals by removing barriers, reducing reliance on intermediaries, and ensuring full ownership and control of their assets. Check out the Stand With Crypto UK movement in the nav bar to find out more about supporting pro crypto policy in the UK!",
-    },
-    {
-      name: "A Stoic",
-      description:
-        "Stoicism is at the core of my personal philosophy. I believe in focusing on the things that we can control and letting go of the rest. There are a lot of things we can't control, and that's ok. By remaining focused we waste less time and live a more fulfilling and peaceful life. Our minds and our actions are the only things we have true control over.",
+      lead: "I'm obsessed with technology that makes people's lives better, and with getting it into their hands early.",
+      body: "David Deutsch's Beginning Infinity shaped how I see the world: problems are soluble, and knowledge is what solves them. AI and crypto are the two technologies I find most exciting. AI gives anyone leverage, and crypto gives anyone ownership. I believe in abundant clean energy too, which is why I'm a believer in nuclear and fusion. I'm drawn to acceleration, and I'd rather be early than wait for consensus.",
+      pointsTitle: "In practice",
+      points: [
+        "Became Housekeep's AI champion and drove adoption from the day I joined, before it was the consensus view.",
+        "Built agentic LLM workflows at Schroders, including analysis across 34 solar farms.",
+        "Founding engineer at EasyA Labs, building DeFi apps in Solidity, TypeScript and Next.js.",
+      ],
     },
   ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
   <section id="introPage" class="grid grid-cols-1 py-4 sm:pt-10 sm:pb-0">
-    <div class="text-center py-2 md:py-4">
-      <h1
-        class="text-6xl sm:text-8xl md:text-9xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue animate-pulse drop-shadow-lg sm:pb-0"
-      >
-        Build The Future
-      </h1>
-    </div>
-
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 md:gap-2 py-4 md:py-8 px-3 max-w-6xl mx-auto"
+      class="grid grid-cols-1 sm:grid-cols-5 items-center gap-8 md:gap-10 py-4 md:py-8 px-3 max-w-6xl mx-auto"
     >
-      <div class="flex flex-col justify-center space-y-6 glassmorphic-card">
-        <p
-          class="text-2xl px-1 py-4 leading-snug md:text-3xl lg:text-4xl sm:leading-relaxed text-center sm:text-left"
-        >
-          Hi, I'm
-          <strong class="text-coinbaseBlue">Matt</strong>. 
-          I'm a <strong class="text-coinbaseBlue">Software Engineer</strong>, Writer and Entrepreneur.
-          Check out my projects and newsletter below.
+      <div class="sm:col-span-3 flex flex-col gap-6 text-center sm:text-left">
+        <p class="text-coinbaseBlue font-medium tracking-wide">
+          Software Engineer · London
         </p>
-        <a href="#projects" class="project-button">Check out my projects →</a>
-        <a href="#newsletter" class="project-button">Subscribe to my newsletter →</a>
+        <h1
+          class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-coinbaseBlue drop-shadow-lg"
+        >
+          Hi, I'm Matt.
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 leading-relaxed">
+          Full-stack engineer working across Django, Angular, AWS and AI.
+          Currently at <strong class="text-white">Housekeep</strong>, shipping
+          features end to end. Previously a founding engineer at
+          <strong class="text-white">EasyA Labs</strong> and at
+          <strong class="text-white">Schroders</strong> building AI tools for
+          investment teams.
+        </p>
+        <div class="flex flex-wrap justify-center sm:justify-start gap-3">
+          {#each stats as stat}
+            <span
+              class="px-3 py-1 rounded-full border border-solid border-violet-700 text-sm text-gray-300"
+              >{stat}</span
+            >
+          {/each}
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="mailto:hello@mattkarlson.com" class="project-button !mt-0 sm:w-auto"
+            >Get in touch →</a
+          >
+          <a href="#experience" class="project-button !mt-0 sm:w-auto"
+            >See my experience →</a
+          >
+          <a
+            href="https://github.com/matthewkarlson"
+            target="_blank"
+            class="project-button !mt-0 sm:w-auto">GitHub →</a
+          >
+        </div>
       </div>
-      
-      <div class="sm:py-6 flex justify-center items-center">
+
+      <div class="sm:col-span-2 flex justify-center items-center">
         <img
           src="/images/profile.png"
           alt="A headshot of Matthew Karlson"
-          class="w-100 rounded-full border-4 border-coinbaseBlue shadow-lg transform transition-all duration-500 hover:scale-105"
+          class="w-full max-w-xs rounded-full border-4 border-coinbaseBlue shadow-lg transform transition-all duration-500 hover:scale-105"
         />
       </div>
     </div>
@@ -82,7 +149,7 @@
   <section class="py-10 lg:py-32 flex flex-col gap-24" id="projects">
     <div class="flex flex-col gap-2 text-center">
       <h6 class="text-large sm:text-xl md:text-2xl">
-        A few of my recent projects
+        Some projects
       </h6>
     </div>
 
@@ -93,7 +160,6 @@
             Created <strong class="text-coinbaseBlue">PostCaptioner.com</strong>, a tool that automatically generates captions for your social media posts.
             Create posts with a mix of video and image content. We use Cloudflare Stream to grab transcripts and images from your videos automatically!
           </p>
-          <a href="https://postcaptioner.com" target="_blank" on:click|stopPropagation class="project-button mt-auto">Check it out →</a>
         </div>
       </Step>
       <Step step={steps[2]}>
@@ -104,7 +170,6 @@
             Turn your invoices into negotiation power!
           </p>
           <div class="flex flex-col gap-2 mt-auto">
-            <a href="https://groupquotes.co.uk" target="_blank" on:click|stopPropagation class="project-button">Check it out →</a>
             <a href="https://www.loom.com/share/bd3d2add58e640328b57c1f7b0bee9c0" target="_blank" on:click|stopPropagation class="project-button">See a demo →</a>
           </div>
         </div>
@@ -116,9 +181,32 @@
             The service has a built in <strong class="text-coinbaseBlue">puppeteer</strong> integration to screenshot the client's website and provide a detailed analysis using AI.
             Fully integrated with <strong class="text-coinbaseBlue">Stripe</strong> for payments and <strong class="text-coinbaseBlue">SendGrid</strong> for email. Built using <strong class="text-coinbaseBlue">Next.js</strong> and <strong class="text-coinbaseBlue">PostgreSQL</strong>.
           </p>
-          <a href="https://www.loom.com/share/ac0a839263a74ba3b52f4c75d1f16886" target="_blank" on:click|stopPropagation class="project-button mt-auto">See a demo →</a>
+          <a href="https://github.com/matthewkarlson/planform" target="_blank" on:click|stopPropagation class="project-button mt-auto">View on GitHub →</a>
         </div>
       </Step>
+    </div>
+  </section>
+  <section class="py-10 lg:py-20 flex flex-col gap-12" id="experience">
+    <div class="flex flex-col gap-2 text-center">
+      <h6 class="text-large sm:text-xl md:text-2xl">Where I've worked</h6>
+    </div>
+    <div class="flex flex-col gap-8 w-full mx-auto max-w-[800px]">
+      {#each jobs as job}
+        <div class="p-4 sm:p-6 rounded-lg border border-solid border-violet-700 flex flex-col gap-3">
+          <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
+            <h3 class="text-2xl sm:text-3xl font-medium">
+              <span class="text-coinbaseBlue">{job.company}</span>
+              <span class="text-lg sm:text-xl text-gray-300"> · {job.role}</span>
+            </h3>
+            <p class="text-gray-400">{job.dates}</p>
+          </div>
+          <ul class="list-disc pl-5 space-y-2 text-gray-300">
+            {#each job.points as point}
+              <li>{point}</li>
+            {/each}
+          </ul>
+        </div>
+      {/each}
     </div>
   </section>
   <section
@@ -132,22 +220,34 @@
         A bit <span class="poppins text-coinbaseBlue">about</span> me.
       </h3>
     </div>
-    <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-      I am . . .
-    </p>
-    <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
+    <div class="flex flex-col w-full mx-auto max-w-5xl">
       {#each benefits as benefit, index}
-        <div class="flex gap-6 sm:gap-8">
-          <p
-            class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold"
-          >
-            0{index + 1}
-          </p>
-          <div class="flex flex-col gap-6 sm:gap-8">
-            <h3 class="text-2xl text-coinbaseBlue sm:text-3xl md:text-5xl">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-12 py-12 border-t border-solid border-violet-950 first:border-t-0"
+        >
+          <div class="flex flex-col gap-2">
+            <p class="poppins text-slate-500 font-semibold">0{index + 1}</p>
+            <h3 class="text-3xl sm:text-4xl text-coinbaseBlue">
               {benefit.name}
             </h3>
-            <p>{benefit.description}</p>
+          </div>
+          <div class="md:col-span-2 flex flex-col gap-6">
+            <p class="text-xl sm:text-2xl leading-snug text-white">
+              {benefit.lead}
+            </p>
+            <p class="text-gray-300 leading-relaxed">{benefit.body}</p>
+            {#if benefit.points.length}
+              <div class="border-l-2 border-solid border-coinbaseBlue pl-5 flex flex-col gap-3">
+                <p class="text-sm uppercase tracking-wide text-gray-400">
+                  {benefit.pointsTitle}
+                </p>
+                <ul class="space-y-2 text-gray-300 list-disc pl-4">
+                  {#each benefit.points as point}
+                    <li>{point}</li>
+                  {/each}
+                </ul>
+              </div>
+            {/if}
           </div>
         </div>
       {/each}
@@ -281,54 +381,6 @@
       </ul>
     </div>
 
-    <section
-      id="stand-with-crypto"
-      class="py-10 lg:py-20 flex flex-col gap-6 max-w-3xl mx-auto text-center"
-    >
-      <h3 class="text-2xl font-bold text-coinbaseBlue">Stand With Crypto</h3>
-      <p class="text-lg text-gray-300">
-        Join me in supporting the <strong>Stand With Crypto</strong> movement, a
-        global call to action to protect and promote innovation in the crypto space.
-        Together, we can advocate for fair policies that ensure financial freedom
-        and the continued growth of decentralized technologies in the UK, US, and
-        beyond.
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a
-          href="https://ukstandwithcrypto.deform.cc/signup?referral=HVB9DgT1Z1pV"
-          target="_blank"
-          class="crypto-button"
-        >
-          Stand With Crypto UK
-        </a>
-        <a
-          href="https://www.standwithcrypto.org/join/2d4a4e1b67f2"
-          target="_blank"
-          class="crypto-button"
-        >
-          Stand With Crypto US
-        </a>
-      </div>
-      <div class="mt-6 flex justify-center">
-        <a
-          href="https://opensea.io/assets/ethereum/0x9d90669665607f08005cae4a7098143f554c59ef/143199"
-          target="_blank"
-          class="hover:opacity-90"
-        >
-          <img
-            src="images/swc.png"
-            alt="Stand With Crypto NFT"
-            class="w-40 h-40 sm:w-60 sm:h-60 rounded-lg border-4 border-coinbaseBlue shadow-lg"
-          />
-        </a>
-      </div>
-    </section>
-
-    <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-      So, jump on board and lets build the future together. 
-    </h5>
-    
-
   </section>
 </main>
 
@@ -389,26 +441,6 @@
     border-color: rgba(0, 82, 255, 0.5);
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 82, 255, 0.3);
-  }
-
-  .crypto-button {
-    display: inline-block;
-    background: #0052FF;
-    color: white;
-    padding: 0.75rem 1.5rem;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    border: 2px solid transparent;
-    box-shadow: 0 4px 12px rgba(0, 82, 255, 0.3);
-  }
-
-  .crypto-button:hover {
-    background: #00D4FF;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 212, 255, 0.4);
-    border-color: rgba(0, 212, 255, 0.5);
   }
 </style>
 
